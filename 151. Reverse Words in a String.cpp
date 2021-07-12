@@ -15,3 +15,20 @@ public:
         return reversed;
     } 
 };
+/*
+class Solution {
+public:
+   string reverseWords(string s) {
+    
+    stringstream str(s);
+    string word;
+    string answer;
+    while(str>>word){
+        answer = word + (answer.length()?" ":"") + answer;
+    }
+       s.clear();
+      return answer;
+       answer.clear();
+}
+};
+*/
